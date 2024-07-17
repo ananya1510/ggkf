@@ -1,0 +1,195 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d56a6a;
+    color: white;
+    padding: 10px 20px;
+}
+
+.highlights p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    color: #202223; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 65px; }
+
+
+
+.cta {
+    background: #ffcc00; 
+    color: #004080; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    background: url('images/ggkfmore.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 35vh; /* 50% of the viewport height */
+    color: #0b0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem 1rem; /* Adjust padding as needed */
+}
+
+.banner img {
+    width: 100%;
+    height: 0%;
+    display: block;
+}
+
+.banner h1, .banner p {
+    margin: 0;
+    padding: 0.5rem 0;
+    color: rgb(15, 14, 14);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: to enhance text readability */
+}
+
+.banner .cta {
+    margin-top: 1rem;
+}
+
+.highlights {
+    padding: 100px;
+    text-align: center;
+    background-color: #c3d0cb; 
+    flex: 1;
+}
+
+.highlights h2 {
+    margin-bottom: 20px;
+    color: #6d1c11; 
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+#about {
+    padding: 50px;
+    background-color: #ffffff;  
+    color: #141516; 
+}
+
+#about h2, #about h3 {
+    color: #141516; 
+}
+
+#about p, #about ul {
+    margin: 20px 0;
+}
+
+#about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+
+.section {
+    margin-bottom: 40px;
+    padding: 40px;
+    background:#b5b1b1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    margin-top: 0;
+}
+
+#contact {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Center align form elements */
+form label, form input, form textarea, form button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    text-align: left;
+}
+
+form button {
+    width: auto;
+}
+
+footer {
+    background: #d56a6a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
